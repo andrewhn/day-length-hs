@@ -6,6 +6,7 @@ import Data.Time.Format
 import Data.Time.LocalTime
 import Data.List
 import Options.Applicative
+import Data.Monoid (<>)
 
 showInterval :: Maybe DiffTime -> String
 showInterval Nothing = "Nothing"
